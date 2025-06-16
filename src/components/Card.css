@@ -1,0 +1,226 @@
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* === Feature Card Styles === */
+.feature-card {
+  background: white;
+  border-radius: 20px;
+  padding: 2rem;
+  transition: all 0.4s ease;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  border: 1px solid #e9ecef;
+}
+
+.feature-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, #2196f3, #4caf50);
+  transform: scaleX(0);
+  transition: transform 0.4s ease;
+}
+
+.feature-card:hover {
+  border-color: var(--primary);
+}
+
+.feature-card:hover::before {
+  transform: scaleX(1);
+}
+
+.feature-icon {
+  font-size: 3rem;
+  color: #2196f3;
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover .feature-icon {
+  transform: rotate(5deg);
+}
+
+.feature-title {
+  font-size: 1.25rem;
+  color: var(--dark);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.feature-description {
+  color: var(--gray);
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.feature-link {
+  color: #2196f3;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  transition: color 0.3s ease;
+}
+
+.feature-link:hover {
+  color: #4caf50;
+}
+
+
+/* === Trail Card Styles === */
+.card.trail-card {
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  background-color: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.trail-image-container {
+  position: relative;
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+}
+
+.trail-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.badge.bg-success,
+.badge.bg-warning,
+.badge.bg-danger {
+  font-weight: 600;
+  border-radius: 8px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.trail-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--dark);
+}
+
+.stat-item {
+  flex: 1;
+}
+
+.stat-icon {
+  font-size: 1.2rem;
+}
+
+.stat-value {
+  font-size: 1.1rem;
+  color: var(--dark);
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+  color: var(--gray);
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .trail-title {
+    font-size: 1.2rem;
+  }
+
+  .trail-image-container {
+    height: 180px;
+  }
+
+  .trail-stats {
+    padding: 15px 0;
+    margin: 15px 0;
+  }
+
+  .stat-value {
+    font-size: 1rem;
+  }
+}
+
+
+/* === Event Card Styles === */
+.card.event-card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  background-color: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.event-image-container {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.event-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.event-title {
+  font-size: 1.25rem;
+  color: var(--dark);
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .event-image-container {
+    height: 160px;
+  }
+
+  .event-title {
+    font-size: 1.1rem;
+  }
+}
+
+
+/* === Person Card Styles === */
+.team-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.team-content .social-links .btn {
+  border-radius: 50% !important;
+  width: 40px !important;
+  height: 40px !important;
+  padding: 0 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+
+
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .team-content {
+    padding: 1rem;
+  }
+}
