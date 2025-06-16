@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Hiking-Syros/static/css/main.afd1dcad.css",
-    "main.js": "/Hiking-Syros/static/js/main.d7bd9098.js",
+    "main.css": "/Hiking-Syros/static/css/main.d6110c45.css",
+    "main.js": "/Hiking-Syros/static/js/main.e8239549.js",
     "static/js/453.c568e56e.chunk.js": "/Hiking-Syros/static/js/453.c568e56e.chunk.js",
     "static/media/fa-solid-900.ttf": "/Hiking-Syros/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
     "static/media/fa-brands-400.ttf": "/Hiking-Syros/static/media/fa-brands-400.1815e00441357e01619e.ttf",
@@ -12,12 +12,12 @@
     "static/media/fa-v4compatibility.ttf": "/Hiking-Syros/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
     "static/media/fa-v4compatibility.woff2": "/Hiking-Syros/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/Hiking-Syros/index.html",
-    "main.afd1dcad.css.map": "/Hiking-Syros/static/css/main.afd1dcad.css.map",
-    "main.d7bd9098.js.map": "/Hiking-Syros/static/js/main.d7bd9098.js.map",
+    "main.d6110c45.css.map": "/Hiking-Syros/static/css/main.d6110c45.css.map",
+    "main.e8239549.js.map": "/Hiking-Syros/static/js/main.e8239549.js.map",
     "453.c568e56e.chunk.js.map": "/Hiking-Syros/static/js/453.c568e56e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.afd1dcad.css",
-    "static/js/main.d7bd9098.js"
+    "static/css/main.d6110c45.css",
+    "static/js/main.e8239549.js"
   ]
 }
