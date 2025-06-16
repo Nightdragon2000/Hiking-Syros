@@ -34,7 +34,7 @@ const Footer = () => {
               <a href="/" className="text-white text-decoration-none mx-2 hover-underline">
                 Home
               </a>
-              <a href="#/about" className="text-white text-decoration-none mx-2 hover-underline">
+              <a href="/#/about2" className="text-white text-decoration-none mx-2 hover-underline">
                 About
               </a>
               {/* Routes (Under Development) */}
