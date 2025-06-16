@@ -31,10 +31,10 @@ const Footer = () => {
           {/* Navigation Links */}
           <Col lg={4} md={6} className="mb-3 mb-lg-0 text-center">
             <div className="footer-links d-flex justify-content-center flex-wrap">
-              <a href="/" className="text-white text-decoration-none mx-2 hover-underline">
+              <a href="/#/" className="text-white text-decoration-none mx-2 hover-underline">
                 Home
               </a>
-              <a href="/#/about2" className="text-white text-decoration-none mx-2 hover-underline">
+              <a href="/#/about" className="text-white text-decoration-none mx-2 hover-underline">
                 About
               </a>
               {/* Routes (Under Development) */}
